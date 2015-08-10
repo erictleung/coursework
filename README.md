@@ -4,4 +4,4 @@ This repository will hold coursework for miscellaneous programming or web develo
 
 ## Courses Overview
 
-TBD
+- `c-lcthw`: http://c.learncodethehardway.org/book/
