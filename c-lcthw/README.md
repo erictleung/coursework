@@ -15,7 +15,7 @@ can find the others [here][learncode].
 
 Source: http://c.learncodethehardway.org/book/
 
-[learncode]: www.learncodethehardway.org
+[learncode]: http://www.learncodethehardway.org
 [preface]: http://c.learncodethehardway.org/book/preface.html
 [intro]: http://c.learncodethehardway.org/book/ex0.html
 [ex0]: http://c.learncodethehardway.org/book/ex0.html
