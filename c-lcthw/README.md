@@ -4,6 +4,11 @@ A course to teach the C programming language "the hard way." It is written by
 Zed A. Shaw who has written other courses for other programming languages. You
 can find the others [here][learncode].
 
+## Directories
+
+- `bin/`: holds all of the scripts from the course and my personal edits
+- `exercise-notes`: holds notes I've made from working through the exercises
+
 ## Table of Contents
 
 - [Preface][preface]
