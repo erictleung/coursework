@@ -12,5 +12,9 @@ Another word I didn't understand was "unary operatory." Once again, according to
 i.e. a single input." So this concept is pretty easy to understand. Just a
 command with one argument or parameter in order to produce its output.
 
+With the `printf()` function, it'll print formatted text. One new type to print
+is the `%ld`, which stands for "long numbers," which are capable of storing
+larger numbers.
+
 [wiki-sizeof]: https://en.wikipedia.org/wiki/Sizeof
 [unary]: https://en.wikipedia.org/wiki/Unary_operation
