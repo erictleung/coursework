@@ -1,6 +1,6 @@
 # Introduction to OpenMP
 
-This course is an entire video course given by Intel's Tim Mattson.
+This course is an entire video course given by Intel's [Tim Mattson][bio].
 
 Lecture:
 https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
@@ -12,9 +12,10 @@ Exercise Files: http://openmp.org/mp-documents/Mattson_OMP_exercises.zip
 ## Outline
 
 - Unit 1: Getting started with OpenMP
-    - [Module 1: Introduction to parallel programming][intro]
-    - Module 2: The boring bits: Using an OpenMP compiler (hello world)
-    - Discussion 1: Hello world and how threads work
+    - [Module 1: Introduction to parallel programming Part 1][mod1.1]
+    - [Module 1: Introduction to parallel programming Part 2][mod1.2]
+    - [Module 2: The boring bits: Using an OpenMP compiler (hello world)][mod2]
+    - [Discussion 1: Hello world and how threads work][disc1]
 - Unit 2: The core features of OpenMP
     - Module 3: Creating Threads (the Pi program)
     - Discussion 2: The simple Pi program and why it sucks
@@ -37,5 +38,8 @@ Exercise Files: http://openmp.org/mp-documents/Mattson_OMP_exercises.zip
     - Discussion 9: Random number generators
 - Unit 5: Recapitulation 
 
-[intro]:
-https://www.youtube.com/watch?v=nE-xN4Bf8XI&list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG&index=1
+[bio]: http://timmattson.com/
+[mod1.1]: https://youtu.be/cMWGeJyrc9w?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+[mod1.2]: https://youtu.be/6jFkNjhJ-Z4?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+[mod2]: https://youtu.be/jfQLD2AGSvc?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+[disc1]: https://youtu.be/x0HkbIuJILk?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
