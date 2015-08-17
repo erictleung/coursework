@@ -23,6 +23,18 @@ can find the others [here][learncode].
 - [Exercise 7: More variables, Some Math][ex7]
 - [Exercise 8: Sizes and Arrays][ex8]
 - [Exercise 9: Arrays and Strings][ex9]
+- [Exercise 10: Arrays of Strings, Looping]
+- [Exercise 11: While-Loop and Boolean Expressions]
+- [Exercise 12: If, Else-If, Else]
+- [Exercise 13: Switch Statements]
+- [Exercise 14: Writing and Using Functions]
+- [Exercise 15: Pointers Dreaded Pointers]
+- [Exercise 16: Structs and Pointers to Them]
+- [Exercise 17: Heap and Stack Memory Allocation]
+- [Exercise 18: Pointers to Functions]
+- [Exercise 19: A Simple Object System]
+- [Exercise 20: Zed's Awesome Debug Macros]
+- [Exercise 21: Advanced Data Types and Flow Control]
 
 Source: http://c.learncodethehardway.org/book/
 
