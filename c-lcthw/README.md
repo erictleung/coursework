@@ -23,7 +23,7 @@ can find the others [here][learncode].
 - [Exercise 7: More variables, Some Math][ex7]
 - [Exercise 8: Sizes and Arrays][ex8]
 - [Exercise 9: Arrays and Strings][ex9]
-- [Exercise 10: Arrays of Strings, Looping]
+- [Exercise 10: Arrays of Strings, Looping][ex10]
 - [Exercise 11: While-Loop and Boolean Expressions]
 - [Exercise 12: If, Else-If, Else]
 - [Exercise 13: Switch Statements]
@@ -51,3 +51,4 @@ Source: http://c.learncodethehardway.org/book/
 [ex7]: http://c.learncodethehardway.org/book/ex6.html
 [ex8]: http://c.learncodethehardway.org/book/ex8.html
 [ex9]: http://c.learncodethehardway.org/book/ex9.html
+[ex10]: http://c.learncodethehardway.org/book/ex10.html
