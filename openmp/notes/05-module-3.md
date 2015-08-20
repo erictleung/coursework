@@ -11,6 +11,8 @@ or rank of 0.
 
 ![Fork-Join Parallelism][fork-join]
 
+Source: Mattson, Tim. A "Hands-on" Introduction to OpenMP.
+
 These forked threads will then work in parallel. Once the parallel work has
 finished, the multiple threads will then come and *join* back together to make
 just the one master thread again. 
