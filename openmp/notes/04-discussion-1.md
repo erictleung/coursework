@@ -34,6 +34,7 @@ Not too long ago, there was a truly SMP computer called the Cray-2 back in
 ## Today's Computers
 
 ![Intel i7-970][chip]
+
 Source: Mattson, Tim. A "Hands-on" Introduction to OpneMP.
 
 Take for example Intel's Core i7-970 chip shown above. It has size cores and
@@ -41,11 +42,12 @@ multiple layers of cache you may have heard, such as L1, L2, or L3 cache. These
 are all pieces of memory, but they can be accessed at different speeds. This is
 also known as a cache hierarchy.
 
-![Intel i7-970 Abstraction][cartoon chip]
+![Intel i7-970 Abstraction][cartoonChip]
+
 Source: Mattson, Tim. A "Hands-on" Introduction to OpneMP.
 
 [chip]: ./figures/intel-i7.png
-[cartoon chip]: ./figures/i7-abstract.png
+[cartoonChip]: ./figures/i7-abstract.png
 
 ## Programming Shared Memory Computers
 
