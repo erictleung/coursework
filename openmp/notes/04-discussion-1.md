@@ -33,7 +33,7 @@ Not too long ago, there was a truly SMP computer called the Cray-2 back in
 
 ## Today's Computers
 
-![Intel i7-970][figures/intel-i7.png]
+![Intel i7-970][./figures/intel-i7.png]
 
 Take for example Intel's Core i7-970 chip shown above. It has size cores and
 multiple layers of cache you may have heard, such as L1, L2, or L3 cache. These
