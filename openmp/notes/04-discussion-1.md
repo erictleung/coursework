@@ -77,3 +77,17 @@ int main()
     }
 }
 ```
+
+## OpenMP Overview: How do thread interact?
+
+- OpenMP is a multi-threading, shared address model.
+    - Threads communicate by sharing variables in the heap.
+- Unintended sharing of data causes race conditions.
+    - **Race condition**: when the program's outcome changes as the threads are
+      scheduled differently.
+    - This can be a problem and the programmer should be very aware of how these
+      threads can communicate
+- To control race conditions:
+    - Use synchronization to protect data conflicts
+- Synchronization is expensive so change how data is accessed to minimize the
+  need for synchronization
