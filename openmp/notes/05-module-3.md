@@ -48,4 +48,36 @@ This statement can also be collapsed into one statement:
 The next few exercises will involve programming the integral of an eqution that
 returns an estimation of ![The math constant pi][pi].
 
+The true integral for the equation is: ![The integral to estimate pi][integral]
+
+The approximation for ![The math constant pi][pi] can be solved with the
+following equation: ![The summation approximation for pi][approx]
+
+The approximation of the integral can be given by the sum of smaller rectangles
+underneath the curve. This is one of the basic concepts learned in calculus as
+you learn the concept of an integral.
+
 [pi]: ./figures/pi.png
+[integral]: ./figures/integral.png
+[approx]: ./figures/approx-pi.png
+
+## Serial Pi Program
+
+Below is the serial version of the program we will be parallelizing.
+
+```C
+static long num_steps = 100000;
+double step;
+int main()
+{
+    int i; double x, pi, sum = 0.0;
+
+    step = 1.0 / (double) num_steps;
+
+    for (i = 0; i < num_steps; i++) {
+        x = (i + 0.5)*step;
+        sum = sum + 4.0/(1.0 + x*x);
+    }
+    pi = step*sum;
+}
+```
