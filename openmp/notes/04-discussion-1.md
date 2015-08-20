@@ -27,3 +27,14 @@ There are two types:
 - Non Uniform address space multiprocess (NUMA): this is where memory will be
   divided and some parts of memory may be easier to access than others,
   depending on where the processor is in relation to memory
+
+Not too long ago, there was a truly SMP computer called the Cray-2 back in
+1985. Each of its memory had equal-time access.
+
+## Today's Computers
+
+![Intel i7-970][figures/intel-i7.png]
+
+Take for example Intel's Core i7-970 chip shown above. It has size cores and
+multiple layers of cache you may have heard, such as L1, L2, or L3 cache. These
+are all pieces of memory, but they can be accessed at different speeds.
