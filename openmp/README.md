@@ -17,7 +17,7 @@ Exercise Files: http://openmp.org/mp-documents/Mattson_OMP_exercises.zip
     - [Module 2: The boring bits: Using an OpenMP compiler (hello world)][mod2]
     - [Discussion 1: Hello world and how threads work][disc1]
 - Unit 2: The core features of OpenMP
-    - Module 3: Creating Threads (the Pi program)
+    - [Module 3: Creating Threads (the Pi program)][mod3]
     - Discussion 2: The simple Pi program and why it sucks
     - Module 4: Synchronization (Pi program revisited)
     - Discussion 3: Synchronization overhead and eliminating false sharing
@@ -43,3 +43,4 @@ Exercise Files: http://openmp.org/mp-documents/Mattson_OMP_exercises.zip
 [mod1.2]: https://youtu.be/6jFkNjhJ-Z4?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [mod2]: https://youtu.be/jfQLD2AGSvc?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [disc1]: https://youtu.be/x0HkbIuJILk?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+[mod3]: https://youtu.be/FQ1k_YpyG_A?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
