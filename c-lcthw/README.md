@@ -24,7 +24,7 @@ can find the others [here][learncode].
 - [Exercise 8: Sizes and Arrays][ex8]
 - [Exercise 9: Arrays and Strings][ex9]
 - [Exercise 10: Arrays of Strings, Looping][ex10]
-- [Exercise 11: While-Loop and Boolean Expressions]
+- [Exercise 11: While-Loop and Boolean Expressions][ex11]
 - [Exercise 12: If, Else-If, Else]
 - [Exercise 13: Switch Statements]
 - [Exercise 14: Writing and Using Functions]
@@ -52,3 +52,4 @@ Source: http://c.learncodethehardway.org/book/
 [ex8]: http://c.learncodethehardway.org/book/ex8.html
 [ex9]: http://c.learncodethehardway.org/book/ex9.html
 [ex10]: http://c.learncodethehardway.org/book/ex10.html
+[ex11]: http://c.learncodethehardway.org/book/ex11.html
