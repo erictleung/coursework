@@ -25,16 +25,19 @@ can find the others [here][learncode].
 - [Exercise 9: Arrays and Strings][ex9]
 - [Exercise 10: Arrays of Strings, Looping][ex10]
 - [Exercise 11: While-Loop and Boolean Expressions][ex11]
-- [Exercise 12: If, Else-If, Else]
-- [Exercise 13: Switch Statements]
-- [Exercise 14: Writing and Using Functions]
-- [Exercise 15: Pointers Dreaded Pointers]
-- [Exercise 16: Structs and Pointers to Them]
-- [Exercise 17: Heap and Stack Memory Allocation]
-- [Exercise 18: Pointers to Functions]
+- [Exercise 12: If, Else-If, Else][ex12]
+- [Exercise 13: Switch Statements][ex13]
+- [Exercise 14: Writing and Using Functions][ex14]
+- [Exercise 15: Pointers Dreaded Pointers][ex15]
+- [Exercise 16: Structs and Pointers to Them][ex16]
+- [Exercise 17: Heap and Stack Memory Allocation][ex17]
+- [Exercise 18: Pointers to Functions][ex18]
 - [Exercise 19: A Simple Object System]
 - [Exercise 20: Zed's Awesome Debug Macros]
 - [Exercise 21: Advanced Data Types and Flow Control]
+- [Exercise 22: The Stack, Scope, and Globals]
+- [Exercise 23: Meet Duff's Device]
+- [Exercise 24: Input, Output, Files]
 
 Source: http://c.learncodethehardway.org/book/
 
@@ -53,3 +56,10 @@ Source: http://c.learncodethehardway.org/book/
 [ex9]: http://c.learncodethehardway.org/book/ex9.html
 [ex10]: http://c.learncodethehardway.org/book/ex10.html
 [ex11]: http://c.learncodethehardway.org/book/ex11.html
+[ex12]: http://c.learncodethehardway.org/book/ex12.html
+[ex13]: http://c.learncodethehardway.org/book/ex13.html
+[ex14]: http://c.learncodethehardway.org/book/ex14.html
+[ex15]: http://c.learncodethehardway.org/book/ex15.html
+[ex16]: http://c.learncodethehardway.org/book/ex16.html
+[ex17]: http://c.learncodethehardway.org/book/ex17.html
+[ex18]: http://c.learncodethehardway.org/book/ex18.html
