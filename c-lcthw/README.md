@@ -32,8 +32,8 @@ can find the others [here][learncode].
 - [Exercise 16: Structs and Pointers to Them][ex16]
 - [Exercise 17: Heap and Stack Memory Allocation][ex17]
 - [Exercise 18: Pointers to Functions][ex18]
-- [Exercise 19: A Simple Object System]
-- [Exercise 20: Zed's Awesome Debug Macros]
+- [Exercise 19: A Simple Object System][ex19]
+- [Exercise 20: Zed's Awesome Debug Macros][ex20]
 - [Exercise 21: Advanced Data Types and Flow Control]
 - [Exercise 22: The Stack, Scope, and Globals]
 - [Exercise 23: Meet Duff's Device]
@@ -63,3 +63,5 @@ Source: http://c.learncodethehardway.org/book/
 [ex16]: http://c.learncodethehardway.org/book/ex16.html
 [ex17]: http://c.learncodethehardway.org/book/ex17.html
 [ex18]: http://c.learncodethehardway.org/book/ex18.html
+[ex19]: http://c.learncodethehardway.org/book/ex19.html
+[ex20]: http://c.learncodethehardway.org/book/ex20.html
