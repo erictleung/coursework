@@ -37,4 +37,7 @@ int main(int argc, char *argv[])
 
     // print the name like a string
     printf("name: %s\n", name);
+
+    // another way to use name
+    char *another = "Zed";
 }
