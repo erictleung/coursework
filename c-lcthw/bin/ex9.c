@@ -21,10 +21,10 @@ int main(int argc, char *argv[])
     number[3] = 4;
     
     // setup the name
-    name[0] = "Z";
-    name[1] = "e";
-    name[2] = "d";
-    name[3] = "\0";
+    name[0] = 'Z';
+    name[1] = 'e';
+    name[2] = 'd';
+    name[3] = '\0';
 
     // then print them out initialized
     printf("numbers: %d %d %d %d\n",
