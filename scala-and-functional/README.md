@@ -6,8 +6,13 @@ Odersky][martin], the designer of Scala.
 Although there are no upcoming sessions for the course, you can sign up for the
 previous and only session of it and watch the videos. He recommends to have the
 accompanying book [Programming in Scala: A Comprehensive Step-by-Step
-Guide][book].
+Guide][book], which I will learn from as well.
 
 [coursera]: https://www.coursera.org
 [martin]: http://lampwww.epfl.ch/~odersky/
 [book]: http://www.amazon.com/Programming-Scala-Comprehensive-Step-Step/dp/0981531644
+
+## Repository Overview
+
+- `bin`: scripts and programs in Scala
+- `notes`: notes I have taken on Scala and functional programming
