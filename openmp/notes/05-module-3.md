@@ -5,9 +5,9 @@ there is a concept called **Fork-Join Parallelism**. This paradigm can be
 understand if you break down the name. 
 
 When you initiate a program, you will have a master thread. This master thread
-can be then be split (or *forked*) into multiple threads. The master thread will
-still exist as one of the forked threads. The master thread will have the index
-or rank of 0. 
+can be then be split (or *forked*) into multiple threads (also known as a **team
+of threads**). The master thread will still exist as one of the forked threads.
+The master thread will have the index or rank of 0. 
 
 ![Fork-Join Parallelism][fork-join]
 
