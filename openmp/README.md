@@ -2,12 +2,10 @@
 
 This course is an entire video course given by Intel's [Tim Mattson][bio].
 
-Lecture:
+- Lecture:
 https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
-
-Slide Deck: http://openmp.org/mp-documents/Intro_To_OpenMP_Mattson.pdf
-
-Exercise Files: http://openmp.org/mp-documents/Mattson_OMP_exercises.zip
+- Slide Deck: http://openmp.org/mp-documents/Intro_To_OpenMP_Mattson.pdf
+- Exercise Files: http://openmp.org/mp-documents/Mattson_OMP_exercises.zip
 
 ## Outline
 
