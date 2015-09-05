@@ -32,7 +32,8 @@ Exercise Files: http://openmp.org/mp-documents/Mattson_OMP_exercises.zip
 - Unit 4: a few advanced OpenMP topics
     - Module 9: Tasks (linked lists the easy way)
     - Discussion 7: Understanding Tasks
-    - Module 10: The scary stuff ... Memory model, atomics, and flush (pairwise synch).
+    - Module 10: The scary stuff ... Memory model, atomics, and flush (pairwise
+        synch).
     - Discussion 8: The pitfalls of pairwise synchronization
     - Module 11: Threadprivate Data and how to support libraries (Pi again)
     - Discussion 9: Random number generators
