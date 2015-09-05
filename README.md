@@ -4,12 +4,12 @@ This repository will hold coursework for miscellaneous programming or web develo
 
 ## Courses Overview
 
-- [Applied Bioinformatics][/applied-bioinformatics]
-- [Learn C The Hard Way][/c-lcthw]
-- [Interactive Data Visualiztion for the Web (d3.js)][/d3.js]
-- [GNU parallel][/gnu-parallel]
-- [Introduction to OpenMP - Tim Mattson (Intel)][/openmp]
-- [Functional Programming Principles in Scala][/scala-and-functional]
+- [Applied Bioinformatics][applied-bioinformatics/]
+- [Learn C The Hard Way][c-lcthw/]
+- [Interactive Data Visualiztion for the Web (d3.js)][d3.js/]
+- [GNU parallel][gnu-parallel/]
+- [Introduction to OpenMP - Tim Mattson (Intel)][openmp/]
+- [Functional Programming Principles in Scala][scala-and-functional/]
 
 ## Course Content Origin
 
