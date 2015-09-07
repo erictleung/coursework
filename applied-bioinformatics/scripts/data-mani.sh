@@ -39,3 +39,10 @@ echo "Let's see how many times the word 'gene' appears in the file."
 read -p "(Press enter to continue)" NULL
 echo "> grep gene ../data/sc.gff | wc -l"
 grep gene ../data/sc.gff | wc -l
+echo ""
+
+# put matches from above into new file
+echo "Let us put the matches we found above into its own file."
+read -p "(Press enter to continue)" NULL
+echo "> grep gene ../data/sc.gff > ../data/match.gff"
+grep gene ../data/sc.gff > ../data/match.gff
