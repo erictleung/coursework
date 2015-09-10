@@ -1,3 +1,3 @@
 # Notes Overview
 
-- [Installation](install.sh)
+- [Installation](install.md)
