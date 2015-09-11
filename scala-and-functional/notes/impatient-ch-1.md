@@ -75,6 +75,13 @@ characters the programmer deems necessary and appropriate. For example, Java
 does not allow operator overloading, meaning you cannot create operators like
 `!@$&*`.
 
+Another [definition][wiki] of "operator overloading" is:
+
+> ...where different operators have different implementations depending on their
+> arguments. 
+
+[wiki]: https://en.wikipedia.org/wiki/Operator_overloading
+
 ## Calling Functions and Methods
 
 ```Scala
