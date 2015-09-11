@@ -119,3 +119,13 @@ def apply(n: Int): Char // method from `StringOps` class
 BigInt("1234567890") // is the same as...
 BigInt.apply("1234567890")
 ```
+
+## ScalaDoc
+
+ScalaDoc is the JavaDoc for Scala i.e. the package and reference site for Scala.
+The ScalaDoc can be found [here][scaladoc].
+
+Things to note about the ScalaDoc is that it is sorted by packages. You can find
+specific methods by using the search/filter box.
+
+[scaladoc]: http://scala-lang.org/api
