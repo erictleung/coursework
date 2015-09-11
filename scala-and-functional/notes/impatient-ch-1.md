@@ -92,3 +92,23 @@ the package is `scala.math` but in the import statement you can ignore the
 "Hello".distinct // same as
 "Hello".distinct()
 ```
+
+## The `apply` Method
+
+There is a particular syntax that looks like a function call.
+
+```Scala
+"Hello"(4) // returns 4th char of string i.e. "o"
+```
+
+The `()` looks overloaded but it is really an implementation of the
+`apply` method.
+
+```Scala
+def apply(n: Int): Char // method from `StringOps` class
+
+"Hello".apply(4) // this is what is really happening to "Hello"(4)
+
+BigInt("1234567890") // is the same as...
+BigInt.apply("1234567890")
+```
