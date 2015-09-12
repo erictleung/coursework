@@ -9,7 +9,7 @@ This repository will hold coursework for miscellaneous programming or web develo
 - [Interactive Data Visualiztion for the Web (D3.js)](d3.js/)
 - [GNU parallel](gnu-parallel/)
 - [Linear Algebra](linear-algebra/)
-- [GNU/Linux Command-Line Tools Summary](linux-command-line)
+- [GNU/Linux Command-Line Tools Summary](linux-command-line/)
 - [Introduction to OpenMP - Tim Mattson (Intel)](openmp/)
 - [Functional Programming Principles in Scala](scala-and-functional/)
 
