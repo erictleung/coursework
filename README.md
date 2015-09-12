@@ -8,6 +8,7 @@ This repository will hold coursework for miscellaneous programming or web develo
 - [Learn C The Hard Way](c-lcthw/)
 - [Interactive Data Visualiztion for the Web (D3.js)](d3.js/)
 - [GNU parallel](gnu-parallel/)
+- [Linear Algebra](linear-algebra/)
 - [Introduction to OpenMP - Tim Mattson (Intel)](openmp/)
 - [Functional Programming Principles in Scala](scala-and-functional/)
 
@@ -18,6 +19,7 @@ This repository will hold coursework for miscellaneous programming or web develo
 - `c-lcthw`: http://c.learncodethehardway.org/book/
 - `d3.js`: http://chimera.labs.oreilly.com/books/1230000000345/index.html
 - `gnu-parallel`: http://www.gnu.org/software/parallel/parallel_tutorial.html
+- `linear-algebra`: https://www.coursera.org/course/matrix
 - `openmp`:
   https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 - `scala-and-functional`: https://www.coursera.org/course/progfun
