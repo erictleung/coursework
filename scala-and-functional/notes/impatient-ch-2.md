@@ -31,3 +31,22 @@ your control statement is multi-lined.
 if (x > 0) { 1
 } else if (x == 0) else -1
 ```
+
+## Statement Termination
+
+Semicolons in Scala are optional. However, if you want to have more than one
+statement on one line, you will need a semicolon to disambiguiate the two
+statements.
+
+```Scala
+if (n > 0) { r = r * n; n -= 1 }
+```
+
+Additionally, if your expression has to span two lines and you need a break, you
+need to end the original line with a symbol that cannot be the end of a
+statement.
+
+```Scala
+s = s0 + (v - v0) * t + // the plus sign tells Scala this line doesn't end
+    0.5 * (a - a0) * t * t
+```
