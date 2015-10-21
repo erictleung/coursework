@@ -50,3 +50,15 @@ statement.
 s = s0 + (v - v0) * t + // the plus sign tells Scala this line doesn't end
     0.5 * (a - a0) * t * t
 ```
+
+## Block Expressions and Assignments
+
+Blocks are set apart with curly brackets (`{` and `}`). These blocks represent
+expressions. Here's an example:
+
+```Scala
+val distance = { val dx = x - x0; val dy = y - y0; sqrt(dx * dx + dy * dy) }
+```
+
+The result of these expressions is also an expression. Meaning that assignments
+have no value, strictly speaking.
