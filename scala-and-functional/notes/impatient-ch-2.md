@@ -62,3 +62,37 @@ val distance = { val dx = x - x0; val dy = y - y0; sqrt(dx * dx + dy * dy) }
 
 The result of these expressions is also an expression. Meaning that assignments
 have no value, strictly speaking.
+
+## Loops
+
+There are two type of loops in Scala, similar to ones found in other programming
+languages: `for` and `while` loops.
+
+### `for` Loop
+
+```Scala
+// can be written with line breaks
+for (i <- 1 to 5)
+  println(i)
+
+// or written without line breaks
+for (i <- 1 to 5) println(i)
+```
+
+Both of these do not require the `initialize; condition; increment` elements in
+the `for` loop.
+
+### `while` Loop
+
+```Scala
+while (n > 0) {
+  r = r * n
+  n -= 1
+}
+```
+
+### Breaking Out of Loops
+
+1. Use a Boolean variables
+2. Nested functions to return from the middle function
+3. Use break method from `import util.control.Breaks._`
