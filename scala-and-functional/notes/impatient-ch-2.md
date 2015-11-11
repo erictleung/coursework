@@ -96,3 +96,37 @@ while (n > 0) {
 1. Use a Boolean variables
 2. Nested functions to return from the middle function
 3. Use break method from `import util.control.Breaks._`
+
+## Advanced `for` Loops and `for` Comprehensions
+
+There are four concepts in advanced `for` loops:
+
+1. Multiple variables
+2. Conditions on looping variables
+3. Create collection of values
+
+### Multiple Variables
+
+Multiple variables in the `for` loop are separated with a semicolon and the
+ranges for the additional variables are defined the same way.
+
+```Scala
+for (i <- 1 to 4; j <- 1 to 4) print((10 * i + j) + "\n")
+```
+
+### Conditions on Loop Variables
+
+```Scala
+for (i <- 1 to 4; j <- 1 to 4 if i != j) print((10 * i + j) + "\n")
+```
+
+Note the lack of a semicolon before the `if` statement.
+
+### Create Collection of Values
+
+```Scala
+for (i <- 1 to 4) yield i
+```
+
+Yields an immutable indexed sequence. This kind of loop is called a `for`
+*comprehension*.
