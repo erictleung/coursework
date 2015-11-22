@@ -130,3 +130,17 @@ for (i <- 1 to 4) yield i
 
 Yields an immutable indexed sequence. This kind of loop is called a `for`
 *comprehension*.
+
+## Functions
+
+Functions defined with name, parameters, then body.
+
+```Scala
+def abs(x: Double) = if (x >= 0) x else -x
+```
+
+Can also define the type for the output.
+
+```Scala
+def fac(n: Int): Int = if (n <= 0) 1 else n * fac(n - 1)
+```
