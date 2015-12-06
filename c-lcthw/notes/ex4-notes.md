@@ -5,7 +5,7 @@ debugger."
 
 ## Installation
 
-You can install it from source [here][download]. 
+You can install it from source [here][download].
 
 By command line, here is how you would install it:
 
