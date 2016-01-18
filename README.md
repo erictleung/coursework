@@ -5,12 +5,12 @@ This repository will hold coursework for miscellaneous programming or web develo
 ## Courses Overview
 
 - [Applied Bioinformatics](applied-bioinformatics/)
-- [Learn C The Hard Way](c-lcthw/)
+- [Functional Programming Principles in Scala](scala-and-functional/)
 - [GNU parallel](gnu-parallel/)
-- [Linear Algebra](linear-algebra/)
 - [GNU/Linux Command-Line Tools Summary](linux-command-tools/)
 - [Introduction to OpenMP - Tim Mattson (Intel)](openmp/)
-- [Functional Programming Principles in Scala](scala-and-functional/)
+- [Learn C The Hard Way](c-lcthw/)
+- [Linear Algebra](linear-algebra/)
 
 ## Course Content Origin
 
