@@ -91,6 +91,12 @@ while (n > 0) {
 }
 ```
 
+Traversing a string/array you go from `0` to `n - 1`, use `until`.
+
+```Scala
+for (i <- 0 until size) println(i)
+```
+
 ### Breaking Out of Loops
 
 1. Use a Boolean variables
