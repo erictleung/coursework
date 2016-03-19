@@ -17,10 +17,10 @@ if (x > 0) "positive" else -1
 ```
 
 The `if/else` can omit the `else` statement and will return no value. In Scala,
-it is a class `Unit` that is written as `()`. 
+it is a class `Unit` that is written as `()`.
 
 ```Scala
-if (x > 0) 1 // there statements...
+if (x > 0) 1 // these statements...
 if (x > 0) 1 else () // ...are the same
 ```
 
