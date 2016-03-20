@@ -107,9 +107,10 @@ for (i <- 0 until size) println(i)
 
 There are four concepts in advanced `for` loops:
 
-1. Multiple variables
-2. Conditions on looping variables
-3. Create collection of values
+1. Multiple variables/generators (*generators*)
+2. If conditions on looping variables (*guard*)
+3. Definitions in looping variables (*definitions*)
+4. Create collection of values (*comprehensions*)
 
 ### Multiple Variables
 
@@ -120,13 +121,21 @@ ranges for the additional variables are defined the same way.
 for (i <- 1 to 4; j <- 1 to 4) print((10 * i + j) + "\n")
 ```
 
-### Conditions on Loop Variables
+### If Conditions on Loop Variables
 
 ```Scala
 for (i <- 1 to 4; j <- 1 to 4 if i != j) print((10 * i + j) + "\n")
 ```
 
 Note the lack of a semicolon before the `if` statement.
+
+### Definitions in looping variables
+
+Here we define `from` to be used in the `for` loop.
+
+```Scala
+for (i <- 1 to 3; from = 4 - i; i <- from to 3) print((10 * i + j) + " ")
+```
 
 ### Create Collection of Values
 
@@ -145,7 +154,8 @@ Functions defined with name, parameters, then body.
 def abs(x: Double) = if (x >= 0) x else -x
 ```
 
-Can also define the type for the output.
+Can also define the type for the output. But you must define this for recursive
+functions, such as the one below.
 
 ```Scala
 def fac(n: Int): Int = if (n <= 0) 1 else n * fac(n - 1)
