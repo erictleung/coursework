@@ -160,3 +160,18 @@ functions, such as the one below.
 ```Scala
 def fac(n: Int): Int = if (n <= 0) 1 else n * fac(n - 1)
 ```
+
+## Default and Named Arguments
+
+Sometimes you want default parameters. And you can define things based on their
+parameter names
+
+```Scala
+// Define function
+def decorate(word: String, left: String = "[", right: String = "]") {
+  left + word + right
+}
+decorate("Hello") // "[Hello]"
+decorate("Hello", "<<<") // "<<<Hello]"
+decorate(left = "<<<", word = "Hello", right = ">>>") // "<<<Hello>>>"
+```
