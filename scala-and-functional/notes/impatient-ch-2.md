@@ -1,5 +1,33 @@
 # Scala for the Impatient Chapter 2
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Conditional Expressions](#conditional-expressions)
+- [Statement Termination](#statement-termination)
+- [Block Expressions and Assignments](#block-expressions-and-assignments)
+- [Loops](#loops)
+  - [`for` Loop](#for-loop)
+  - [`while` Loop](#while-loop)
+  - [Breaking Out of Loops](#breaking-out-of-loops)
+- [Advanced `for` Loops and `for` Comprehensions](#advanced-for-loops-and-for-comprehensions)
+  - [Multiple Variables](#multiple-variables)
+  - [If Conditions on Loop Variables](#if-conditions-on-loop-variables)
+  - [Definitions in looping variables](#definitions-in-looping-variables)
+  - [Create Collection of Values](#create-collection-of-values)
+- [Functions](#functions)
+- [Default and Named Arguments](#default-and-named-arguments)
+- [Variable Arguments](#variable-arguments)
+- [Procedures](#procedures)
+- [Lazy Values](#lazy-values)
+- [Exceptions](#exceptions)
+  - [`throw` an Exception](#throw-an-exception)
+  - [Try/Catch](#trycatch)
+  - [Try/Finally](#tryfinally)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Conditional Expressions
 
 Scala has this kind of `if/else` control structure.
