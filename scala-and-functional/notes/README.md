@@ -4,8 +4,8 @@
 - Functional Programming Principles in Scala
     - Week 1 Functions and Evaluations
         - [Lec 1.1 Programming Paradigms](week-1-1.md)
-        - [Lec 1.2 Elements of Programming]
-        - [Lec 1.3 Evaluation Strategies and Termination]
+        - [Lec 1.2 Elements of Programming](week-1-2.md)
+        - [Lec 1.3 Evaluation Strategies and Termination](week-1-3.md)
         - [Lec 1.4 Conditionals and Value Definitions]
         - [Lec 1.5 Example: Square Root and Newton's Method]
         - [Lec 1.6 Blocks and Lexical Scope]
@@ -18,7 +18,7 @@
     - Week 7 Lazy Evaluation
 - Scala for the Impatient
     1. [The Basics](impatient-ch-1.md)
-    2. [Control Structures and Functions]
+    2. [Control Structures and Functions](impatient-ch-2.md)
     3. [Arrays]
     4. [Maps and Tuples]
     5. [Classes]
