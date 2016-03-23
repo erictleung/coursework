@@ -42,8 +42,8 @@ statements.
 if (n > 0) { r = r * n; n -= 1 }
 ```
 
-Additionally, if your expression has to span two lines and you need a break, you
-need to end the original line with a symbol that cannot be the end of a
+Additionally, if your expression has to span two lines and you need a break,
+you need to end the original line with a symbol that cannot be the end of a
 statement.
 
 ```Scala
@@ -65,8 +65,8 @@ have no value, strictly speaking.
 
 ## Loops
 
-There are two type of loops in Scala, similar to ones found in other programming
-languages: `for` and `while` loops.
+There are two type of loops in Scala, similar to ones found in other
+programming languages: `for` and `while` loops.
 
 ### `for` Loop
 
