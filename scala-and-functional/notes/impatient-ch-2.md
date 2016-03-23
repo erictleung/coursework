@@ -175,3 +175,81 @@ decorate("Hello") // "[Hello]"
 decorate("Hello", "<<<") // "<<<Hello]"
 decorate(left = "<<<", word = "Hello", right = ">>>") // "<<<Hello>>>"
 ```
+
+## Variable Arguments
+
+Use the `*` character to extend arguments.
+
+```Scala
+def capitalize(args: String*) = { args.map(_.capitalize) }
+```
+
+## Procedures
+
+Procedures are functions that have no return value. There are created as a
+normal function would but removing the equals sign.
+
+```Scala
+def box(s: String) { // Notice no equals sign
+  val border = "-" * s.size + "--\n"
+  println(border + "|" + s + "|\n" + border)
+}
+```
+
+## Lazy Values
+
+You can make a variable such that it will only initialize after the first time
+you use it. Hence being "lazily" initialized.
+
+```Scala
+// Should be "words" not "wors"
+// This will not create an error
+lazy val words = io.Source.fromFile("/usr/share/dict/wors").mkString
+words // This will create the error
+```
+
+## Exceptions
+
+You can create exceptions using `throw` and `try/catch`, along with `finally`.
+
+### `throw` an Exception
+
+```Scala
+// Exception
+val x = -4
+if (x >= 0) {
+  sqrt(x)
+} else {
+  throw new IllegalArgumentException("x should not be negative")
+}
+```
+
+### Try/Catch
+
+Try/catch statements are to *try* a statement(s) and do something else if the
+first try fails in order to *catch* any errors.
+
+```Scala
+// Try/Catch
+try {
+  process(new FileReader(filename))
+} catch {
+  case _: FileNotFoundException => println(filename + " not found")
+  case ex: IOException => ex.printStackTrace()
+}
+```
+
+### Try/Finally
+
+The `finally` statement will execute regardless of whether the `try` raises an
+exception or not.
+
+```Scala
+// Try/Finally
+val reader = new FileReader(filename)
+try {
+  process(reader)
+} finally {
+  reader.close()
+}
+```
