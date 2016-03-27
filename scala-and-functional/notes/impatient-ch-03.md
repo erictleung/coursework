@@ -21,3 +21,15 @@ b.insert(2, 6) // Insert 6 at index 2
 b.remove(2) // Remove element at index 2
 b.toArray.toBuffer
 ```
+
+## Traversing Arrays (and Array Buffers)
+
+```Scala
+// Traverse array and print index and element
+for (i <- 0 to a.size)
+  println(i + ": " + a(i))
+
+0 until 5 // Range(0, 1, 2, 3, 4)
+0 until (10, 2) // Range(0, 2, 4, 6, 8)
+(0 until 5).reverse // Range(4, 3, 2, 1, 0)
+```
