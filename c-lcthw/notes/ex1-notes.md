@@ -28,12 +28,13 @@ int main(int argc, char *argv[])
 ```
 
 The `argc` stands for "argument count"; `argc` contains the number of arguments
-passed to the program. The `argv` stands for "argument vector". This contains
-the vector (one can think of this as a list) of arguments, the number of which
-were defined in `argc`. This [website][argc] explains these arguments even more.
+passed to the program.
 
-But on that website, it describes a simple program to explain what these
-arguments mean.
+The `argv` stands for "argument vector". This contains the vector (one can think
+of this as a list) of arguments, the number of which were defined in `argc`.
+
+This [website][argc] explains these arguments even more. But on that website, it
+describes a simple program to explain what these arguments mean.
 
 ```C
 #include <stdio.h>
@@ -45,16 +46,16 @@ int main (int argc, char *argv[])
   printf ("This program was called with \"%s\".\n",argv[0]);
 
   if (argc > 1)
+  {
+    for (count = 1; count < argc; count++)
     {
-      for (count = 1; count < argc; count++)
-	{
-	  printf("argv[%d] = %s\n", count, argv[count]);
-	}
+      printf("argv[%d] = %s\n", count, argv[count]);
     }
+  }
   else
-    {
-      printf("The command had no other arguments.\n");
-    }
+  {
+    printf("The command had no other arguments.\n");
+  }
 
   return 0;
 }
